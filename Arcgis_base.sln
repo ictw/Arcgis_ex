@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arcgis_base", "Arcgis_base\Arcgis_base.csproj", "{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Debug|ARM.Build.0 = Debug|ARM
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Debug|ARM.Deploy.0 = Debug|ARM
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Debug|x64.ActiveCfg = Debug|x64
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Debug|x64.Build.0 = Debug|x64
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Debug|x64.Deploy.0 = Debug|x64
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Debug|x86.ActiveCfg = Debug|x86
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Debug|x86.Build.0 = Debug|x86
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Debug|x86.Deploy.0 = Debug|x86
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Release|ARM.ActiveCfg = Release|ARM
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Release|ARM.Build.0 = Release|ARM
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Release|ARM.Deploy.0 = Release|ARM
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Release|x64.ActiveCfg = Release|x64
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Release|x64.Build.0 = Release|x64
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Release|x64.Deploy.0 = Release|x64
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Release|x86.ActiveCfg = Release|x86
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Release|x86.Build.0 = Release|x86
+		{CAA66AE5-F2BD-4BB2-9191-35CB2DFD4A1E}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8C0077B-0F49-43BE-9411-D5DC7D0ADEBB}
+	EndGlobalSection
+EndGlobal

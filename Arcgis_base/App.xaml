@@ -1,8 +1,8 @@
 ﻿<Application
-    x:Class="Arcgis_ex1.App"
+    x:Class="Arcgis_base.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:Arcgis_ex1"
+    xmlns:local="using:Arcgis_base"
     RequestedTheme="Light">
 
 </Application>

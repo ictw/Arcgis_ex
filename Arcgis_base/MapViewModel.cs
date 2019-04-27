@@ -13,9 +13,8 @@ using Esri.ArcGISRuntime.Security;
 using Esri.ArcGISRuntime.Symbology;
 using Esri.ArcGISRuntime.Tasks;
 using Esri.ArcGISRuntime.UI;
-using Esri.ArcGISRuntime.Portal;
 
-namespace Arcgis_ex1
+namespace Arcgis_base
 {
     /// <summary>
     /// Provides map data to an application
@@ -27,30 +26,7 @@ namespace Arcgis_ex1
 
         }
 
-        //private Map _map = new Map(Basemap.CreateStreetsVector());
-        private Map _map = new Map();
-
-        public /*async*/ void LoadPortalBasemap(string webmapID)
-        {
-
-
-            var itemID = "http://www.arcgisonline.cn/arcgis/home/item.html?id=" + webmapID;
-
-            Map webMap = new Map(new Uri(itemID));
-
-            Map = webMap;
-            //ArcGISPortal agsOnline =
-            //    await
-            //    ArcGISPortal.CreateAsync(new Uri("https://www.arcgis.com/sharing/rest"));
-            //ArcGISPortal agsOnline =
-            //    await
-            //    ArcGISPortal.CreateAsync();
-            //PortalItem myPortalItem =
-            //    await
-            //    PortalItem.CreateAsync(agsOnline, itemID);
-            //_map.Basemap = new Basemap(myPortalItem);
-
-        }
+        private Map _map = new Map(Basemap.CreateStreets());
 
         /// <summary>
         /// Gets or sets the map
